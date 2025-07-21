@@ -404,6 +404,75 @@ footer p {
   font-size: 0.9rem;
   color: #ccc;
 }
+/* ========== Animations ========== */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.6s ease-out forwards;
+}
 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ========== Responsive Design ========== */
+@media (max-width: 768px) {
+  .header-spacer {
+    height: 60px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+ nav ul li {
+    margin: 5px 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #hero,
+  #services,
+  #contact {
+    padding: 60px 20px;
+  }
+
+  #hero .cta-button {
+    padding: 14px 30px;
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+  }
+
+  h2 {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+  }
+
+  h3 {
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .logo {
+    width: 40px;
+  }
+} 
 
 </style>
