@@ -24,7 +24,7 @@
       <!-- Branding: Logo and Title always on one line -->
       <div class="branding">
         <a href="#hero" aria-label="Comffee Connect Home" class="header-logo-link">
-          <img src="https://www.comffeeconnect.com/images/logo.png" alt="Comffee Connect Cafe Logo" class="logo" width="50" height="50">
+          <img src="https://raw.githubusercontent.com/CMULS/comfeeconnect/refs/heads/main/WhatsApp%20Image%202025-07-14%20at%2015.08.58_e41e5502.jpg" alt="Comffee Connect Cafe Logo" class="logo" width="50" height="50">
         </a>
         <h1>Comffee Connect</h1>
       </div>
